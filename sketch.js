@@ -40,7 +40,7 @@ function draw() {
   groundObject.display();
   dustbinObj.display();
   paper.display();
-  keyPressed();
+//  keyPressed();
 }
 function keyPressed(){
 	if(keyCode === UP_ARROW){
