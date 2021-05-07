@@ -26,7 +26,7 @@ function setup() {
 
 	Engine.run(engine);
 
-	paper=new Paper(120,630,50);
+	paper=new Paper(200,450,70);
 	
   
 }
@@ -40,7 +40,7 @@ function draw() {
   groundObject.display();
   dustbinObj.display();
   paper.display();
-//  keyPressed();
+
 }
 function keyPressed(){
 	if(keyCode === UP_ARROW){
