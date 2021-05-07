@@ -10,7 +10,7 @@ constructor (x,y,r){
     this.y=y;
     this.r=r;
     
-    this.body=Bodies.circle(this.x,this.y,(this.r-2)/2,options);
+    this.body=Bodies.circle(this.x,this.y,(this.r-20)/2,options);
     this.image=loadImage("paper.png")
     World.add(world,this.body);
 
